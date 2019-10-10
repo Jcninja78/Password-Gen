@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <h2>Generate a Password</h2>
+
+    <!-- <p>
+      Welcome to the 54th Easy JavaScript tutorial, part of <a href="http://www.easyprogramming.net">EasyProgramming.net</a>. Let's make a random password generator
+      </p>
+      <p>
+      We'll be using a lot of things that we've already learned including String methods, for loop, ternary operator, event listeners, random number generator, and functions. 
+      </p>
+      <p>
+      A random password generator normally asks you for the number of characters and whether or not you want numbers and/or symbols. So let's look at the setup below:
+      </p>
+       -->
+      How many characters? <input type="number" id="charNum" value="12" min="8" max="128" /><br />
+      Number: <input type="checkbox" id="num"/>
+      Symbol: <input type="checkbox" id="sym"/><br />
+      <button id="submit">Submit</button><br />
+      Your Password: <input type="text" id="yourPw" size="80"/>
+    <!-- <textarea
+      readonly
+      id="password"
+      placeholder="Your Secure Password"
+      aria-label="Generated Password"
+    ></textarea>
+    <button id="generate">Generate Password</button>
+    <button id="copy">
+      Copy to Clipboard
+    </button> -->
+    <!-- <div class="content">
+      <input type="text" id="display">
+      <br />
+      <input type="range" min="0" max="50" name="slider" id="slider">
+      <br />
+      <button onClick="generate">Generate</button>
+      <button onClick="length">Copy to Clipboard</button>
+      <div id="length"></div>
+    </div> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
